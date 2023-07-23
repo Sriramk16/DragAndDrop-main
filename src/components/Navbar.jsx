@@ -1,9 +1,9 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import { MdWork } from "react-icons/md";
-import { AiOutlineRight } from "react-icons/ai";
+import { AiOutlineRight, AiTwotoneGift } from "react-icons/ai";
 import { BiSearchAlt2, BiHelpCircle, BiUserCircle } from "react-icons/bi";
-import { AiTwotoneGift } from "react-icons/ai";
+
 const Navbar = ({ handleQuery }) => {
   return (
     <div className="w-[100%] flex flex-col p-5 gap-2 ">
