@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import CandidateContainer from "./CandidateContainer";
-import { MdSouth } from "react-icons/md";
+
 
 const ContentBar = () => {
-  //   const [query, setQuery] = useState("");
+  
 
   const list = [
     {

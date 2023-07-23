@@ -1,7 +1,6 @@
 import React from "react";
 import { GrUser } from "react-icons/gr";
 import SearchBar from "./SearchBar";
-import { BsFileWord, BsSearch } from "react-icons/bs";
 import { MdWork } from "react-icons/md";
 import { AiOutlineRight } from "react-icons/ai";
 import { BiSearchAlt2, BiHelpCircle, BiUserCircle } from "react-icons/bi";

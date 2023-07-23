@@ -4,11 +4,11 @@ import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 
 const CandidateContainer = ({ listOfCandidate, setListOfCandidate }) => {
   const onDragEnd = (result) => {
-    // Check if the item was dropped outside the droppable area
+    
     if (!result.destination) return;
 
     const { source, destination } = result;
-    // Reorder the items based on the drag and drop result
+    
     const updatedItems = Array.from(listOfCandidate);
     const [reorderedItem] = updatedItems.splice(source.index, 1);
     updatedItems.splice(destination.index, 0, reorderedItem);
@@ -31,7 +31,7 @@ const CandidateContainer = ({ listOfCandidate, setListOfCandidate }) => {
                   {(draggableProvided) => (
                     <CandidateCard
                       item={item}
-                      key={index}
+                      key={item.name}
                       draggableProvided={draggableProvided}
                     />
                   )}

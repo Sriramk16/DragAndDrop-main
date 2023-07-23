@@ -1,6 +1,4 @@
 import React from "react";
-import { AiOutlineUserSwitch } from "react-icons/ai";
-import { GrUserWorker } from "react-icons/gr";
 import { MdWork } from "react-icons/md";
 import { GiClockwork } from "react-icons/gi";
 import { FaUserEdit } from "react-icons/fa";

@@ -1,6 +1,6 @@
-import React, { forwardRef, useState } from "react";
+import React, { forwardRef} from "react";
 import { AiOutlineStar } from "react-icons/ai";
-const CandidateCard = forwardRef(({ item, draggableProvided }, ref) => {
+const CandidateCard = forwardRef(({ item, draggableProvided }) => {
   return (
     <div
       className="flex flex-col p-3 w-[300px] bg-white rounded-lg gap-2  "
