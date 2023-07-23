@@ -1,5 +1,4 @@
 import React from "react";
-import { GrUser } from "react-icons/gr";
 import SearchBar from "./SearchBar";
 import { MdWork } from "react-icons/md";
 import { AiOutlineRight } from "react-icons/ai";
